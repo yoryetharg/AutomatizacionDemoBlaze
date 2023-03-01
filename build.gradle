@@ -1,0 +1,32 @@
+plugins {
+    id 'java'
+}
+
+group 'co.com.example.automationtest'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    serenity = '3.2.1'
+    junitVersion = '4.13.1'
+    lombok = '1.18.22'
+    junitVintage = '5.8.2'
+}
+
+dependencies {
+    implementation "net.serenity-bdd:serenity-screenplay-webdriver:${serenity}"
+    implementation "org.projectlombok:lombok:${lombok}"
+    annotationProcessor "org.projectlombok:lombok:${lombok}"
+
+    testImplementation "net.serenity-bdd:serenity-cucumber:${serenity}",
+            "net.serenity-bdd:serenity-screenplay-webdriver:${serenity}",
+            "junit:junit:${junitVersion}",
+            "org.junit.vintage:junit-vintage-engine:${junitVintage}"
+}
+
+test {
+    useJUnitPlatform()
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="automation.runners.AgregarProductosRunner" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-03-01T22:08:45" hostname="mb0b0928766.domain.name" time="66.109">
+  <properties/>
+  <testcase name="Agregar productos al carrito de compra" classname="automation.runners.AgregarProductosRunner" time="19.025"/>
+  <testcase name="Crear un usuario exitosamente" classname="automation.runners.AgregarProductosRunner" time="19.96"/>
+  <testcase name="Comprar productos con usuario registrado" classname="automation.runners.AgregarProductosRunner" time="27.124"/>
+  <system-out><![CDATA[Thank you for your purchase!
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 61658
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677708530.969][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+mar. 01, 2023 5:08:51 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 01, 2023 5:08:51 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+mar. 01, 2023 5:08:51 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+mar. 01, 2023 5:08:51 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 53583
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677708545.937][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+mar. 01, 2023 5:09:05 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 01, 2023 5:09:05 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+mar. 01, 2023 5:09:05 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+mar. 01, 2023 5:09:05 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 62177
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677708565.858][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+mar. 01, 2023 5:09:25 P. M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+mar. 01, 2023 5:09:25 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 110, so returning the closest version found: a no-op implementation
+mar. 01, 2023 5:09:25 P. M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 110.
+mar. 01, 2023 5:09:25 P. M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+?[32m?[1m┌───────────────────────────────────────────────────────────────────────────────────┐?[0m
+?[32m?[1m│?[0m Share your Cucumber Report with your team at ?[36m?[1m?[4mhttps://reports.cucumber.io?[0m          ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Activate publishing with one of the following:                                    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.enabled?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Environment variable:                            ?[36mCUCUMBER_PUBLISH_ENABLED?[0m=?[36mtrue?[0m    ?[32m?[1m│?[0m
+?[32m?[1m│?[0m JUnit:                                           ?[36m@CucumberOptions?[0m(publish = ?[36mtrue?[0m) ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m More information at ?[36mhttps://cucumber.io/docs/cucumber/environment-variables/?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m Disable this message with one of the following:                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m                                                                                   ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/cucumber.properties:          ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m│?[0m src/test/resources/junit-platform.properties:    ?[36mcucumber.publish.quiet?[0m=?[36mtrue?[0m      ?[32m?[1m│?[0m
+?[32m?[1m└───────────────────────────────────────────────────────────────────────────────────┘?[0m
+]]></system-err>
+</testsuite>
